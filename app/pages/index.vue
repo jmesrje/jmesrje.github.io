@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-  title: 'jmesrje'
-})
+  title: "jmesrje",
+});
 </script>
 
 <template>
@@ -40,14 +40,16 @@ useHead({
       </div>
       <p class="text-heading-size font-bold">about me</p>
       <ul class="list-disc my-2 px-8">
-        <li><i>full-stack</i> - vue, lua, JS</li>
+        <li><i>full-stack</i> - vue <Icon name="file-icons:vue" />, lua <Icon name="file-icons:lua" />, JS <Icon name="devicon-plain:javascript" /></li>
         <li><i>athlete</i> - calisthenics and track</li>
         <li><i>passionate</i> - committed to solving problems</li>
         <li><i>disciplined</i> - confident with challenges</li>
       </ul>
       <hr class="h-[2px] my-6 bg-divider-color border-0" />
       <p class="text-heading-size font-bold mb-2">positions</p>
-      <p class="text-subtext-size text-subtext-color font-bold font-monospace">CURRENT</p>
+      <p class="text-subtext-size text-subtext-color font-bold font-monospace">
+        CURRENT
+      </p>
       <ul class="list-disc my-2 px-8">
         <li>
           development lead -
@@ -58,7 +60,9 @@ useHead({
           >
         </li>
       </ul>
-      <p class="text-subtext-size text-subtext-color font-bold font-monospace">PAST</p>
+      <p class="text-subtext-size text-subtext-color font-bold font-monospace">
+        PAST
+      </p>
       <ul class="list-disc my-2 px-8">
         <li>
           programmer lead -
@@ -71,7 +75,9 @@ useHead({
       </ul>
       <hr class="h-[2px] my-6 bg-divider-color border-0" />
       <p class="text-heading-size font-bold mb-2">current works</p>
-      <p class="text-subtext-size text-subtext-color font-bold font-monospace">PUBLISHED</p>
+      <p class="text-subtext-size text-subtext-color font-bold font-monospace">
+        PUBLISHED
+      </p>
       <ul class="list-disc my-2 px-8">
         <li>
           personal portfolio -
@@ -92,10 +98,20 @@ useHead({
           >
         </li>
       </ul>
-      <p class="text-subtext-size text-subtext-color font-bold font-monospace">IN PROGRESS</p>
+      <p class="text-subtext-size text-subtext-color font-bold font-monospace">
+        IN PROGRESS
+      </p>
       <ul class="list-disc my-2 px-8">
         <li>
           axiom website -
+          <a
+            class="underline text-subtext-color hover:text-white transition-colors"
+            href="#"
+            >soon</a
+          >
+        </li>
+        <li>
+          iOS fitness app -
           <a
             class="underline text-subtext-color hover:text-white transition-colors"
             href="#"
