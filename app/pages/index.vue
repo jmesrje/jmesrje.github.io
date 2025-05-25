@@ -16,7 +16,7 @@ useHead({
           class="text-link-color hover:text-default-color transition-colors"
           href="https://www.google.com/maps/place/Chicago,+IL/"
           target="_blank"
-          >CHICAGO IL</a
+          >CHICAGO IL ↗</a
         >
       </p>
       <div class="flex items-center gap-4 h-auto -ml-1 mt-4 mb-4">
@@ -34,7 +34,7 @@ useHead({
         /></a>
         <a
           class="transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"
-          href="https://bsky.app/profile/jmesrje.bsky.social"
+          href="https://bsky.app/profile/jmesrje.github.io"
           ><Icon class="size-9" name="simple-icons:bluesky"
         /></a>
       </div>
@@ -52,11 +52,11 @@ useHead({
       </p>
       <ul class="list-disc my-2 px-8">
         <li>
-          development lead -
+          self employed -
           <a
-            class="underline text-subtext-color hover:text-white transition-colors"
+            class="underline text-link-color hover:text-white transition-colors"
             href="#"
-            >Axiom</a
+            >jmesrje↷</a
           >
         </li>
       </ul>
@@ -85,7 +85,7 @@ useHead({
             class="underline text-link-color hover:text-white transition-colors"
             href="https://github.com/jmesrje/jmesrje.github.io"
             target="_blank"
-            >jmesrje</a
+            >jmesrje↗</a
           >
         </li>
         <li>
@@ -94,7 +94,7 @@ useHead({
             class="underline text-link-color hover:text-white transition-colors"
             href="https://github.com/jmesrje/zed-charmed-icons"
             target="_blank"
-            >jmesrje</a
+            >jmesrje↗</a
           >
         </li>
       </ul>
@@ -102,14 +102,6 @@ useHead({
         IN PROGRESS
       </p>
       <ul class="list-disc my-2 px-8">
-        <li>
-          axiom website -
-          <a
-            class="underline text-subtext-color hover:text-white transition-colors"
-            href="#"
-            >soon</a
-          >
-        </li>
         <li>
           iOS fitness app -
           <a
