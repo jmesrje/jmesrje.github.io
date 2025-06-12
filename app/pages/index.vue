@@ -7,7 +7,7 @@ useHead({
 <template>
   <main class="select-none flex items-center justify-center min-h-screen">
     <div
-      class="bg-background-color border-2 border-divider-color grid max-w-[800px] w-[800px] h-auto px-16 py-12 rounded-[16px]"
+      class="bg-background-color grid max-w-[800px] w-[800px] h-auto px-16 py-12 rounded-[16px]"
     >
       <p class="text-title-size font-bold">jmesrje</p>
       <p class="text-default-size font-bold">
@@ -41,7 +41,8 @@ useHead({
       <p class="text-heading-size font-bold">about me</p>
       <ul class="list-disc my-2 px-8">
         <li><i>full-stack</i> - vue <Icon name="file-icons:vue" />, lua <Icon name="file-icons:lua" />, JS <Icon name="devicon-plain:javascript" /></li>
-        <li><i>athlete</i> - calisthenics and track</li>
+        <li><i>athlete</i> - passionate in track and lifting</li>
+        <li><i>music</i> - interested in alternate rock & rap</li>
         <li><i>passionate</i> - committed to solving problems</li>
         <li><i>disciplined</i> - confident with challenges</li>
       </ul>
@@ -67,9 +68,9 @@ useHead({
         <li>
           programmer lead -
           <a
-            class="underline text-subtext-color hover:text-white transition-colors"
-            href="#"
-            >Lumin Labs</a
+            class="underline text-link-color hover:text-white transition-colors"
+            href="https://github.com/axiom-co"
+            >axiom/lumin↗</a
           >
         </li>
       </ul>
@@ -103,11 +104,19 @@ useHead({
       </p>
       <ul class="list-disc my-2 px-8">
         <li>
-          iOS fitness app -
+          iOS app ventures -
           <a
             class="underline text-subtext-color hover:text-white transition-colors"
             href="#"
-            >soon</a
+            >soon!↗</a
+          >
+        </li>
+        <li>
+          other web apps -
+          <a
+            class="underline text-subtext-color hover:text-white transition-colors"
+            href="#"
+            >soon!↗</a
           >
         </li>
       </ul>
